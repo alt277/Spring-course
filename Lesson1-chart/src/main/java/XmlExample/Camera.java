@@ -22,7 +22,6 @@ public class Camera {
         this .film = film;
     }
     public void doPhotograph (){
-
         System . out . println ( "Фотоаппарат "+name+" сработал" );
         film. processing ();
     }
